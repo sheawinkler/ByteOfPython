@@ -1,0 +1,23 @@
+
+Class A {
+
+	public static void main(String[] args) {
+
+		int r1 = 0;
+		int r2 = 1;
+		int r3 = 2;
+		int r5;
+
+		if (r1 >= r2 && r1 >= r3) {
+			r5 = r1; //assigns r1 as largest
+		}		
+		else if (r2 >= r1 && r2 >= r3) {
+			r5 = r2; //assigns r2 as largest
+		}
+		else {
+			r5 = r3 //assigns r3 as largest
+		}
+
+	return r5
+	}
+}
